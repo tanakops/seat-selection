@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: seat-selection
+  description: ''
+  annotations:
+    backstage.io/kubernetes-id: seat-selection
+    platform.wasp.silvios.me/template: python-service@5666297a3c2c1a4e6b00104b4e5e01f73f8df373
+    github.com/project-slug: tanakops/seat-selection
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-alpha
+  system: seat-map
